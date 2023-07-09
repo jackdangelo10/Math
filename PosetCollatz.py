@@ -1,3 +1,9 @@
+
+#link to Combinatorics Final Project paper that explains the math
+#https://1drv.ms/w/s!ApBeuAdmvRHsiUcSba8NXq6c0yvp?e=s5toOf
+
+
+#initial variables
 i = 1
 greaterDif = 0
 equal = 0
@@ -53,7 +59,7 @@ while (i < bound):
 
     #iterate to next odd
     i += 2
-    
+
 print("This many were larger than Collatz: ", greaterDif)
 print("This many had same height: ", equal)
 print("Remember that only odd numbers count as input despite iterative bounds")
